@@ -49,15 +49,33 @@ function removeProduto() {
   let confirmacao = confirm("Deseja remover");
   if (obj.marca == "Seara") {
     if (confirmacao == true) {
-      liId.remove();
+        if(liId == null){
+            alert('Não existe!')
+        }
+        else{
+            liId.remove();
+        }
+      
     }
   } else if (obj.marca == "Friboi") {
     if (confirmacao == true) {
-      liId.remove();
+        if(liId == null){
+            alert('Não existe!')
+        }
+        else{
+            liId.remove();
+        }
+      
     }
   } else if (obj.marca == "Swift") {
     if (confirmacao == true) {
-      liId.remove();
+        if(liId == null){
+            alert('Não existe!')
+        }
+        else{
+            liId.remove();
+        }
+      
     }
   }
 }
